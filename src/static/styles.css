@@ -142,3 +142,43 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+
+.participants-list {
+  list-style-type: none;
+  margin-left: 0;
+  margin-bottom: 0;
+  color: #333;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 0;
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.participant-name {
+  margin-right: 8px;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #c62828;
+  margin-left: 4px;
+  font-size: 18px;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+.delete-icon:hover {
+  color: #a31515;
+}
+
+.no-participants {
+  color: #888;
+  font-style: italic;
+  margin-left: 2px;
+  display: inline-block;
+  vertical-align: middle;
+}
